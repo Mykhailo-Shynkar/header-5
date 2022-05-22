@@ -1,0 +1,145 @@
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}  
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 156px 0 122px;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 93%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+li a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F3F4F3;
+}
+
+.logo>h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 144%;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.button{
+    width: 306px;
+    height: 67px;
+    background: #02E4C0;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h5 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    color: #010101;
+    text-transform: uppercase;
+}
+
+a>h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 144%;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #02E4C0;
+}
+
+.first_article>a{
+    display: block;
+    width: 306px;
+    margin: 0 auto;
+    margin-top: 41.89px;
+    margin-bottom: 52px;
+}
+
+.main_container{
+    max-width: 1196px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 1440px;
+    background: linear-gradient(180deg, #000000 0%, rgba(8, 36, 52, 0.83) 100%)  no-repeat scroll;
+}
+
+li:not(:last-child){
+    margin: 0 58px 0 0;
+}
+
+
+
+/*картинки на фоне*/
+
+img[alt="boards"]{
+    position: relative;
+    top: 330px;
+    left: 0;
+}
+
+img[alt="bot"]{
+    position: relative;
+    top: -30px;
+    left: 700px;
+}
+
+img[alt="dashboard"]{
+    display: block;
+    position: absolute;
+    margin: 52px 0px 0px 250px;
+}
+
+.image_background{
+    min-width: 1440px;
+    position: relative;  
+    height: 663px;
+    margin: 0 auto;
+}
+
